@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <title>Prom electronics</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="container mobile-header">
+        <div class="logo-wrapper">
+          <img src="img/logo.png" alt="Logo">
+          <i class="bi bi-list menu-toggle" ></i>
+        </div>
+      </div>
+      <div class="container header-wrapper d-flex justify-content-between align-items-center">
+
+        <div class="logo-wrapper">
+          <img src="img/logo.png" alt="Logo">
+        </div>
+        <div class="right">
+          <i class="bi bi-x menu-toggle" ></i>
+          <div class="input-group search-group flex-grow-1">
+            <img class="search-icon" src="img/search.svg" alt="">
+            <input type="text" class="form-control d-inline-block w-auto" placeholder="Поиск по сайту" />
+            <button class="btn prom-btn p-4">Найти</button>
+          </div>
+          <div class="d-flex justify-content-between align-items-center">
+            <a href="tel:+88888888888" class="ms-3 main-phone"><img src="img/phone.svg" class="ms-4" alt="" /> 8 888 888 88 88</a>
+            <a href="#" class="header-btn ms-4 p-4 btn prom-btn-outline">Отправить запрос</a>
+            <a href="#" class="header-btn ms-4 p-4 btn prom-btn">Заказать звонок</a>
+          </div>
+        </div>
+
+        <!-- Main Navbar -->
+        <nav class="main-navbar">
+            <ul class="p-0 main-navbar-wrapper">
+              <li class="py-3 navbar-item"><a href="#">Склад</a></li>
+              <li class="py-3 navbar-item"><a href="#">Производители</a></li>
+              <li class="py-3 navbar-item"><a href="#">Каталог</a></li>
+              <li class="py-3 navbar-item"><a href="#">Доставка</a></li>
+              <li class="py-3 navbar-item"><a href="#">Гарантии</a></li>
+              <li class="py-3 navbar-item active"><a href="#">Поставщикам</a></li>
+              <li class="py-3 navbar-item"><a href="#">О компании</a></li>
+              <li class="py-3 navbar-item"><a href="#">Контакты</a></li>
+            </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="breadcrumbs">
+      <div class="container">
+        <ul>
+          <li><a href="#">Главная</a></li>
+          <li>Категории</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="suppliers-text">
+      <div class="container">
+        <span class="prom-title">Поставщикам</span>
+        <p>6088 - поставки оборудование и комплектующих по России. Мы работаем с поставщиками по всему миру и в карте наших поставок более пяти тысяч производителей. Наша команда нацелена на привлечение новых поставщиков промышленного электронного оборудования, и проработку взаимовыгодных отношений с официальными дистрибьюторами разных брендов.<br>
+          Мы осуществляем поставки по всей России и в страны СНГ. Готовы дать объемы поставок и возможность бесплатного размещения рекламы Вашей продукции на нашем сайте, на условиях получения уникальных предложений от Вас.
+        </p>
+        <span class="prom-title">Мы будем рады <br>сотрудничеству если:</span>
+        <ul>
+          <li>Ваша компания поставляет качественное оборудование и Вы ищете каналы сбыта</li>
+          <li>Вы работаете по договору, с соблюдением гарантийных обязательств</li>
+          <li>Вся поставляемая продукция оригинальная и имеет соответствующие сертификаты качества</li>
+          <li>Вы готовы предоставить полный перечень продукции с актуальной стоимостью и описанием</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="contact-form text-white text-center p-5">
+      <div class="container">
+        <h2 class="prom-title">Отправьте заявку и узнайте стоимость прямо сейчас</h2>
+        <p class="description">Ответим на ваш запрос в течение 15 минут</p>
+        <form class="row g-3 form-row">
+          <div class="col-md-6 col-12">
+            <input type="text" class="form-control" placeholder="Ваш телефон">
+          </div>
+          <div class="col-md-6 col-12">
+            <input type="text" class="form-control" placeholder="Артикул или описание">
+          </div>
+          <div class="col-md-6 col-12">
+            <input type="email" class="form-control" placeholder="Почта">
+          </div>
+          <div class="col-md-6 col-12">
+            <button type="submit" class="btn prom-btn">Отправить запрос</button>
+          </div>
+          <div class="col-12 checkbox-wrapper">
+            <input type="checkbox" class="form-check-input me-2" id="consentCheck">
+            <label class="form-check-label" for="consentCheck">Согласие с условиями <a href="#">политики конфиденциальности</a> и <a href="#">пользовательского соглашения</a></label>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Contacts Section -->
+    <section class="contacts">
+      <div class="container">
+        <span class="prom-title">Контакты</span>
+        <div class="contacts-wrapper">
+          <div class="contact-item">
+            <img class="me-2" src="/img/location.svg" alt="">
+            <span>Адрес</span>
+          </div>
+          <div class="contact-item">
+            <img class="me-2" src="/img/phone.svg" alt="">
+            <span>8 800 500 77 23</span>
+          </div>
+          <div class="contact-item">
+            <img class="me-2" src="/img/mail.svg" alt="">
+            <span>info@mail.com</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Yandex Map Section -->
+    <section class="map">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <!-- Карта Яндекса -->
+            <div id="yandex-map" style="width: 100%; height: 500px;"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="text-white py-4">
+      <div class="container">
+        <span class="prom-title">Обратная связь</span>
+        <p>Оставьте заявку и наши менеджеры свяжутся с вами в течении 15 минут</p>
+        <div class="input-group mt-4">
+          <input type="text" placeholder="Ваш телефон"/>
+          <button class="btn prom-btn">Отправить</button>
+        </div>
+        <div class="bottom-line">
+          <ul>
+            <li><a href="#">Главная</a></li>
+            <li><a href="#">Контакты</a></li>
+            <li><a href="#">Каталог</a></li>
+          </ul>
+          <span >© 2024 Все права защищены</span>
+          <span class="ms-5">Политика конфиденциальности</span>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
